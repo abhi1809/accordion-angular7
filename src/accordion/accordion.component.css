@@ -1,0 +1,28 @@
+.content { 
+  width: 50%;
+ }
+
+ section {
+  border: 1px solid rgba(0,0,0,.125);
+ }
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 15px;
+  background-color: white;
+}
+
+.noborder_bottom {
+  border-bottom: 0px;
+}
